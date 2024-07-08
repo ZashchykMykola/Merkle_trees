@@ -1,4 +1,4 @@
-.idea
-__pycache__
-to_test_tree
-data_list_indexed_binary_smaller
+.idea/
+__pycache__/
+to_test_tree.py
+data_list_indexed_binary_smaller.txt
