@@ -142,7 +142,7 @@ is_target_and_index_valid = sparse_tree.verify_membership_proof(membership_proof
 print(f'Membership validation of {target_and_index[0]} by index {target_and_index[1]}:', is_target_and_index_valid)
 
 # верифікація невключення елемента за відомим індексом
-exclusion_index = 65486
+exclusion_index = 62627
 exclusion_proof = sparse_tree.find_proof_by_index(exclusion_index)
 is_target_and_index_valid = sparse_tree.verify_exclusion_proof(exclusion_proof)
 print(f'Exclusion validation of element by index {exclusion_index}:', is_target_and_index_valid)
