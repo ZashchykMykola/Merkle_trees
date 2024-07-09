@@ -8,7 +8,7 @@ random_range_max = 1000000
 
 generated_numbers = set()
 
-"""f_indexed = open("data_list_indexed_binary.txt", "w")
+f_indexed = open("data_list_indexed_binary.txt", "w")
 for i in range(0, number_of_elements_binary):
     while True:
         value = random.randint(random_range_min, random_range_max)
@@ -18,8 +18,8 @@ for i in range(0, number_of_elements_binary):
     f_indexed.write(f"{value}, {i}\n")
 
 f_indexed.close()
-"""
 
+"""
 f_indexed = open("data_list_indexed_sparse.txt", "w")
 for i in range(0, number_of_elements_sparse):
     while True:
@@ -30,7 +30,7 @@ for i in range(0, number_of_elements_sparse):
     f_indexed.write(f"{value}, {i}\n")
 
 f_indexed.close()
-
+"""
 
 
 
